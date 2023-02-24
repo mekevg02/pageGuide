@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body class="container d-flex flex-column body">
+  <div class="background_img">
+      <svg width="1920" height="2320" viewBox="0 0 1920 2320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_f_39_2)">
+              <ellipse cx="1726.5" cy="1156" rx="880.5" ry="818" fill="#FAB401" fill-opacity="0.23"/>
+          </g>
+          <g filter="url(#filter1_f_39_2)">
+              <ellipse cx="463.5" cy="1583" rx="798.5" ry="487" fill="#B1F062" fill-opacity="0.51"/>
+          </g>
+          <g filter="url(#filter2_f_39_2)">
+              <ellipse cx="1437.5" cy="1034.5" rx="318.5" ry="274.5" fill="#FED860" fill-opacity="0.8"/>
+          </g>
+          <g filter="url(#filter3_f_39_2)">
+              <path d="M-66.5988 1509.04C-296.776 1396.22 -238.844 1101.53 -181.106 968.284C-71.5477 782.36 227.567 629.573 476.71 728.065C725.852 826.556 530.526 1134.18 476.328 1310.78C422.13 1487.38 221.123 1650.07 -66.5988 1509.04Z" fill="#FF2E2E" fill-opacity="0.1"/>
+          </g>
+          <defs>
+              <filter id="filter0_f_39_2" x="508" y="0" width="2437" height="2312" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feGaussianBlur stdDeviation="169" result="effect1_foregroundBlur_39_2"/>
+              </filter>
+              <filter id="filter1_f_39_2" x="-585" y="846" width="2097" height="1474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_39_2"/>
+              </filter>
+              <filter id="filter2_f_39_2" x="779" y="420" width="1317" height="1229" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feGaussianBlur stdDeviation="170" result="effect1_foregroundBlur_39_2"/>
+              </filter>
+              <filter id="filter3_f_39_2" x="-551.9" y="378.215" width="1471.28" height="1503.35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                  <feGaussianBlur stdDeviation="159.5" result="effect1_foregroundBlur_39_2"/>
+              </filter>
+          </defs>
+      </svg>
+  </div>
+    <header class="header">
+      <div class="d-flex justify-content-between align-items-center"><a href="#">
+          <div class="logo-title">Vegan HoReCA</div></a>
+        <div class="justify-content-between align-items-center main-menu">
+          <ul class="d-flex main-menu_gap">
+              <a href="#"><li class="d-flex menu-title">СПРАВОЧНИК</li></a>
+              <a href="#"><li class="d-flex menu-title">ПОСТАВЩИКИ</li></a>
+              <a href="#"><li class="d-flex menu-title">О НАС</li></a>
+              <a href="#"><li class="d-flex menu-title">КОНТАКТЫ</li></a>
+          </ul>
+        </div>
+          <div class="burger-menu">
+
+              <input id="menu-toggle" type="checkbox" />
+              <label class="menu-btn" for="menu-toggle">
+                  <span></span>
+              </label>
+              <ul class="main-menu_gap menubox">
+                  <a href="#"><li class="menu-item d-flex menu-title">СПРАВОЧНИК</li></a>
+                  <a href="#"><li class="menu-item d-flex menu-title">ПОСТАВЩИКИ</li></a>
+                  <a href="#"><li class="menu-item d-flex menu-title">О НАС</li></a>
+                  <a href="#"><li class="menu-item d-flex menu-title">КОНТАКТЫ</li></a>
+              </ul>
+          </div>
+      </div>
+    </header>
+    <main class="main">
+        <section class="cover_page d-flex flex-column"><div class="main-title">Веганский справочник</div><div class="main-text">Наша цель — сделать так, чтобы веганские опции в кафе<br>и ресторанах стали доступнее.<br>Для этого мы создали справочник ингридиентов.</div>
+        </section>
+        <section class="search">
+            <form class="search-form">
+                <div class="list_position_frame row no-gutters align-items-center">
+                    <div class="col-8">
+                        <div class="d-flex input-group">
+                            <div class="input-svg d-flex align-items-center">
+                                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="13.5" stroke="black" stroke-width="5"/>
+                                    <rect x="23" y="25.6743" width="5.19625" height="26.3075" rx="2.59812" transform="rotate(-45 23 25.6743)" fill="black"/>
+                                </svg>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Поиск по ингридиентам">
+                            <div class="input-group_btn">
+                                <button class="input-group_button d-flex justify-content-center align-items-center" type="submit">Найти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex input-group">
+                            <div class="input-svg d-flex align-items-center">
+                                <svg width="26" height="25" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="13.5" stroke="black" stroke-width="5"/>
+                                    <rect x="23" y="25.6743" width="5.19625" height="26.3075" rx="2.59812" transform="rotate(-45 23 25.6743)" fill="black"/>
+                                </svg>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Поиск по ингридиентам">
+                            <div class="input-group_btn">
+                                <button class="input-group_button d-flex justify-content-center align-items-center" type="submit">Найти</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="search-frame d-flex flex-column gap-5">
+                <div class="text3">
+                    Нет результатов по вашему запросу
+                </div>
+                <div class="main-text">
+                    Измените запрос или поищите вручную в справочнике.
+                </div>
+            </div>
+        </section>
+        <section class="list_position list_position_pc flex-column gap-3">
+            <div class="list_position_frame row no-gutters align-items-center">
+                <div class="col-8">
+                    <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_big-img"><img src="img/image1.png" alt="как заменить животные продукты"></div>
+                        <div class="list_position_frame-item_text title1">как заменить животные продукты</div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#" class="d-flex list_position_frame-item_small d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_small-img"><img src="img/image2.png" alt="закуски"></div>
+                        <div class="list_position_frame-item_text title1">закуски</div>
+                    </a>
+                </div>
+            </div>
+            <div class="list_position_frame row no-gutters align-items-center">
+                <div class="col-4">
+                    <a href="#" class="d-flex list_position_frame-item_small d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_small-img"><img src="img/image3.png" alt="завтраки"></div>
+                        <div class="list_position_frame-item_text title1">завтраки</div>
+                    </a>
+                </div>
+                <div class="col-8">
+                    <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_big-img"><img src="img/image4.png" alt="основные блюда"></div>
+                        <div class="list_position_frame-item_text title1">основные блюда</div>
+                    </a>
+                </div>
+            </div>
+            <div class="list_position_frame row no-gutters align-items-center">
+                <div class="col-8">
+                    <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_big-img"><img src="img/image5.png" alt="десерты"></div>
+                        <div class="list_position_frame-item_text title1">десерты</div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#" class="d-flex list_position_frame-item_small d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_small-img"><img src="img/image6.png" alt="выпечка"></div>
+                        <div class="list_position_frame-item_text title1">выпечка</div>
+                    </a>
+                </div>
+            </div>
+            <div class="list_position_frame row no-gutters align-items-center">
+                <div class="col-4">
+                    <a href="#" class="d-flex list_position_frame-item_small d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_small-img"><img src="img/image7.png" alt="приправы"></div>
+                        <div class="list_position_frame-item_text title1">приправы</div>
+                    </a>
+                </div>
+                <div class="col-8">
+                    <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_big-img"><img src="img/image8.png" alt="соусы"></div>
+                        <div class="list_position_frame-item_text title1">соусы</div>
+                    </a>
+                </div>
+            </div>
+            <div class="list_position_frame row no-gutters align-items-center">
+                <div class="col-8">
+                    <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_big-img"><img src="img/image9.png" alt="комплименты"></div>
+                        <div class="list_position_frame-item_text title1">комплименты</div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#" class="d-flex list_position_frame-item_small d-flex list_position_frame-item flex-column">
+                        <div class="list_position_frame-item_small-img"><img src="img/image10.png" alt="алкоголь"></div>
+                        <div class="list_position_frame-item_text title1">алкоголь</div>
+                    </a>
+                </div>
+            </div>
+      </section>
+        <section class="list_position list_position_mob flex-column gap-3">
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background ">
+                    <img src="img/image1.1.png" alt="как заменить животные продукты">
+                </div>
+                <div class="list_position_frame-item_text title1">как заменить животные продукты</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image2.1.png" alt="закуски">
+                </div>
+                <div class="list_position_frame-item_text title1">закуски</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image3.1.png" alt="завтраки">
+                </div>
+                <div class="list_position_frame-item_text title1">завтраки</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image4.1.png" alt="основные блюда">
+                </div>
+                <div class="list_position_frame-item_text title1">основные блюда</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image5.1.png" alt="десерты">
+                </div>
+                <div class="list_position_frame-item_text title1">десерты</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image6.1.png" alt="выпечка">
+                </div>
+                <div class="list_position_frame-item_text title1">выпечка</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image7.1.png" alt="приправы">
+                </div>
+                <div class="list_position_frame-item_text title1">приправы</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image8.1.png" alt="соусы">
+                </div>
+                <div class="list_position_frame-item_text title1">соусы</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image9.1.png" alt="комплименты">
+                </div>
+                <div class="list_position_frame-item_text title1">комплименты</div>
+            </a>
+            <a href="#" class="d-flex list_position_frame-item_big d-flex list_position_frame-item flex-column">
+                <div class="list_position_mob-background">
+                    <img src="img/image10.1.png" alt="алкоголь">
+                </div>
+                <div class="list_position_frame-item_text title1">алкоголь</div>
+            </a>
+        </section>
+        <section class="link-suppliers">
+            <a href="#" class="d-flex gap-2">
+                <div class="link-suppliers_text">
+                    Посмотреть поставщиков
+                </div>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2.12132" y="19.7695" width="3" height="23.5443" transform="rotate(-135 2.12132 19.7695)" fill="black"/>
+                    <rect x="4.00023" y="3" width="3" height="16" transform="rotate(-90 4.00023 3)" fill="black"/>
+                    <rect x="17.0002" width="3" height="16" fill="black"/>
+                </svg>
+            </a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-frame d-flex flex-column">
+            <a href="#"><div class="logo-title text-center">Vegan HoReCA</div></a>
+            <a href="#"><div class="text2 text-center">НАПИСАТЬ НАМ</div></a>
+            <a href="#"><div class="text2 text-center">НАШ INSTAGRAM</div></a>
+        </div>
+    </footer>
+  </body>
+</html>
